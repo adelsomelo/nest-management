@@ -7,17 +7,14 @@ import {
   Plus, 
   Building2, 
   MapPin, 
-  DollarSign, 
-  Activity, 
   ChevronRight, 
-  Filter,
   CheckCircle2,
   AlertCircle,
   Wrench,
   TrendingUp,
   CreditCard
 } from 'lucide-react';
-import { Unit } from '../types';
+import { type Unit } from '../types';
 
 // Extended Unit interface for display purposes
 interface UnitDisplay extends Unit {

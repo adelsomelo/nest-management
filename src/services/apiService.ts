@@ -1,5 +1,5 @@
 
-import { Property, Tenant, Unit, Lease, AppUser } from '../types';
+import { type Property, type Tenant, type Unit, type Lease, type AppUser } from '../types';
 
 const API_BASE_URL = '/api';
 

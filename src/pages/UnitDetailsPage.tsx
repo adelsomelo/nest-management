@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Unit } from '../types';
+import { type Unit } from '../types';
 import { 
   ChevronLeft, 
   Hash, 

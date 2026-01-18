@@ -18,7 +18,7 @@ import {
   Pencil,
   ExternalLink
 } from 'lucide-react';
-import { Tenant } from '../types';
+import { type Tenant } from '../types';
 
 const DetailCard = ({ label, value, icon: Icon, colorClass = "text-blue-600", bgClass = "bg-blue-50" }: any) => (
   <div className="bg-white p-6 rounded-[2rem] border border-slate-200 shadow-sm flex items-center gap-5 group hover:shadow-md transition-all">

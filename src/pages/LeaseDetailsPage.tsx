@@ -1,28 +1,23 @@
 
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { 
   ChevronLeft, 
   FileText, 
-  Calendar, 
   DollarSign, 
   ShieldCheck, 
   Clock, 
   AlertTriangle,
-  ArrowRight,
   ExternalLink,
   Users,
   Building2,
   Layout,
   Download,
   Printer,
-  Sparkles,
-  Loader2,
   CheckCircle2,
-  Info,
   TrendingUp
 } from 'lucide-react';
-import { Lease } from '../types';
+import { type Lease } from '../types';
 
 const LeaseDetailsPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();

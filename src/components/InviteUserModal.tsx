@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { X, UserPlus, Mail, User, Shield, ShieldCheck, ShieldAlert, Loader2, Send, CheckCircle2 } from 'lucide-react';
-import { AppUser } from '../types';
+import { X, UserPlus, Mail, User, Shield, ShieldCheck, Loader2, Send, CheckCircle2 } from 'lucide-react';
+import { type AppUser } from '../types';
 
 interface InviteUserModalProps {
   isOpen: boolean;

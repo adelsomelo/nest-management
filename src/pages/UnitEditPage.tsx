@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { 
   ChevronLeft, 
@@ -7,14 +7,12 @@ import {
   Building2, 
   Hash, 
   DollarSign, 
-  Activity, 
   Layout, 
-  CheckCircle2,
   Loader2,
   Trash2,
   AlertCircle
 } from 'lucide-react';
-import { Unit } from '../types';
+import { type Unit } from '../types';
 
 const UnitEditPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();

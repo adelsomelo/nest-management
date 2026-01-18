@@ -16,7 +16,7 @@ import {
   User,
   Loader2
 } from 'lucide-react';
-import { AppUser } from '../types';
+import { type AppUser } from '../types';
 import { useTranslation } from '../App';
 import { apiService } from '../services/apiService';
 import InviteUserModal from '../components/InviteUserModal';

@@ -3,21 +3,18 @@ import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { 
   ChevronLeft, 
-  UserCog, 
   Save, 
   Mail, 
   Shield, 
-  Activity, 
   Loader2,
   ShieldCheck,
-  ShieldAlert,
   User,
   Trash2,
   Lock,
   Globe,
   Bell
 } from 'lucide-react';
-import { AppUser } from '../types';
+import { type AppUser } from '../types';
 import { useTranslation } from '../App';
 
 const UserEditPage: React.FC = () => {

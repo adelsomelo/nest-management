@@ -17,7 +17,7 @@ import {
   MapPin
 } from 'lucide-react';
 import { apiService } from '../services/apiService';
-import { Property } from '../types';
+import { type Property } from '../types';
 
 type Step = 'identity' | 'pricing' | 'review';
 
@@ -26,7 +26,7 @@ const UnitCreatePage: React.FC = () => {
   const [currentStep, setCurrentStep] = useState<Step>('identity');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [properties, setProperties] = useState<Property[]>([]);
-  const [isLoadingProperties, setIsLoadingProperties] = useState(true);
+  // const [isLoadingProperties, setIsLoadingProperties] = useState(true);
   
   const [formData, setFormData] = useState({
     name: '',
@@ -63,7 +63,7 @@ const UnitCreatePage: React.FC = () => {
       } catch (error) {
         console.error("Failed to load properties", error);
       } finally {
-        setIsLoadingProperties(false);
+        // setIsLoadingProperties(false);
       }
     };
     fetchProperties();
@@ -90,6 +90,7 @@ const UnitCreatePage: React.FC = () => {
         {completed ? <CheckCircle2 size={16} /> : label.charAt(0)}
       </div>
       <span className={`text-sm font-bold tracking-tight ${active ? 'text-slate-800' : 'text-slate-500'}`}>{label}</span>
+      {step}
     </div>
   );
 

@@ -2,12 +2,11 @@
 import React, { useState, useEffect } from 'react';
 import { HashRouter, Routes, Route, Navigate, Link } from 'react-router-dom';
 import { 
-  Building2, 
   Bell,
   Languages,
   Check
 } from 'lucide-react';
-import { Language } from './translations';
+import { type Language } from './translations';
 import { LanguageProvider, useTranslation } from './context/LanguageContext';
 import { Sidebar } from './components/Sidebar';
 import Breadcrumbs from './components/Breadcrumbs';
@@ -33,7 +32,7 @@ import UserEditPage from './pages/UserEditPage';
 import SettingsPage from './pages/SettingsPage';
 
 const TopBar = ({ isCollapsed }: { isCollapsed: boolean }) => {
-  const { language, setLanguage, t } = useTranslation();
+  const { language, setLanguage } = useTranslation();
   const [langOpen, setLangOpen] = useState(false);
 
   const locales: { code: Language, label: string, flag: string }[] = [

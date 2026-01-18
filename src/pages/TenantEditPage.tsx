@@ -12,10 +12,9 @@ import {
   User, 
   Trash2, 
   ShieldCheck, 
-  Clock, 
   Info
 } from 'lucide-react';
-import { Tenant } from '../types';
+import { type Tenant } from '../types';
 import { apiService } from '../services/apiService';
 import ConfirmationModal from '../components/ConfirmationModal';
 

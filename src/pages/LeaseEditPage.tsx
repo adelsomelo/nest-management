@@ -16,7 +16,7 @@ import {
   TrendingUp,
   Info
 } from 'lucide-react';
-import { Lease } from '../types';
+import { type Lease } from '../types';
 import ConfirmationModal from '../components/ConfirmationModal';
 
 const LeaseEditPage: React.FC = () => {

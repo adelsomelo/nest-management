@@ -2,8 +2,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { 
-  ChevronLeft, 
-  FileText, 
+  ChevronLeft,
   Save, 
   Loader2,
   Calendar,
@@ -12,12 +11,11 @@ import {
   Layout,
   Building2,
   ShieldCheck,
-  ChevronRight,
   ClipboardList,
   Home,
   Check
 } from 'lucide-react';
-import { Lease } from '../types';
+import { type Lease } from '../types';
 
 const LeaseCreatePage: React.FC = () => {
   const navigate = useNavigate();

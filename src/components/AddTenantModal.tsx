@@ -1,6 +1,6 @@
 
 import React, { useState, useMemo } from 'react';
-import { Tenant } from '../types';
+import { type Tenant } from '../types';
 import { X, Search, Check, UserPlus, ClipboardList, PlusCircle } from 'lucide-react';
 
 interface AddTenantModalProps {

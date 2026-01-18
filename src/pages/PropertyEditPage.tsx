@@ -1,7 +1,7 @@
 
 import React, { useState, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Property } from '../types';
+import { type Property } from '../types';
 import { 
   ChevronLeft, 
   Building2, 
@@ -12,7 +12,6 @@ import {
   Activity, 
   Maximize2, 
   TextQuote, 
-  Globe,
   Loader2,
   Trash2,
   AlertCircle,

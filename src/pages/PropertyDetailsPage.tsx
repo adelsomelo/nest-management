@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Property } from '../types';
+import { type Property } from '../types';
 import { 
   ChevronLeft, 
   ChevronRight,

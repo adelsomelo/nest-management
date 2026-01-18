@@ -18,7 +18,7 @@ import {
   ChevronRight,
   Loader2
 } from 'lucide-react';
-import { Tenant } from '../types';
+import { type Tenant } from '../types';
 import { apiService } from '../services/apiService';
 
 const StatCard = ({ label, value, icon: Icon, color }: { label: string, value: string | number, icon: any, color: string }) => (

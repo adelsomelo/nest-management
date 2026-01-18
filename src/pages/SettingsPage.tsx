@@ -8,7 +8,6 @@ import {
   Bell, 
   Globe, 
   Languages, 
-  CreditCard, 
   Mail, 
   Save, 
   Loader2, 
@@ -19,7 +18,7 @@ import {
   LogOut
 } from 'lucide-react';
 import { useTranslation } from '../App';
-import { Language } from '../translations';
+import { type Language } from '../translations';
 
 type SettingsTab = 'profile' | 'organization' | 'preferences' | 'security' | 'notifications';
 

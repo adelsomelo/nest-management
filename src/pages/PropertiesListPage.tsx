@@ -11,7 +11,7 @@ import {
   CheckCircle2,
   X
 } from 'lucide-react';
-import { Property } from '../types';
+import { type Property } from '../types';
 import { useTranslation } from '../context/LanguageContext';
 import { apiService } from '../services/apiService';
 

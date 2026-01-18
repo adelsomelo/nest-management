@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { 
   ChevronLeft, 
-  UserPlus, 
   Save, 
   Loader2,
   Mail,
@@ -14,7 +13,7 @@ import {
   ShieldCheck,
   Info
 } from 'lucide-react';
-import { Tenant } from '../types';
+import { type Tenant } from '../types';
 
 const TenantCreatePage: React.FC = () => {
   const navigate = useNavigate();

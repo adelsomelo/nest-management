@@ -54,6 +54,7 @@ const StatCard = ({ label, value, trend, icon: Icon, isCurrency = false }: { lab
 );
 
 const DashboardPage: React.FC = () => {
+  console.log('Rendering DashboardPage');
   const { t } = useTranslation();
 
   return (
